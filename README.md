@@ -14,4 +14,4 @@ Matrix factorization is a way to generate latent features when multiplying two d
 * Get the transpose of this and multiply with the oiginal dataframe of movies and sort the values.
 * The highest value is the most recommended movie for the user.
 
-For more info, click here
+For more info, click ***[here](https://towardsdatascience.com/recommendation-system-matrix-factorization-d61978660b4b)***
