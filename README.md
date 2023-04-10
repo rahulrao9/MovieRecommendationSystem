@@ -9,7 +9,7 @@ Matrix factorization is a way to generate latent features when multiplying two d
 ***How it works:***
 * Suppose a user provides ratings for 5 different movies on the scale on 0 to 5, 5 being the highest.
 * We take a matrix of 1s and 0s where the rows represent movies and columns represent genres.
-* Multiply the column matrix of user ratings with this matrix which gives a list of values of length same ass number of genres.
+* Multiply the column matrix of user ratings with this matrix which gives a list of values of length same as number of genres.
 * This will tell us how much each genre is liked by the user.
 * Get the transpose of this matrix and multiply with the original dataframe of movies and sort the values.
 * The highest value is the most recommended movie for the user.
